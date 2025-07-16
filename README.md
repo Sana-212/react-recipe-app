@@ -38,7 +38,7 @@ src/
 │   └── index.js
 ├── App.js
 ├── index.js
-
+```
 
 ### Getting Started
 
