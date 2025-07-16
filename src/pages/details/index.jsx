@@ -14,15 +14,15 @@ const Details = () => {
         `https://forkify-api.herokuapp.com/api/v2/recipes/${id}`
       );
       const data = await res.json();
-      console.log(data);
+      // console.log(data);
 
       if (data?.data) {
         setRecipeDetails(data?.data);
       }
     };
     getRecipeDetails();
-  }, []);
-  console.log(recipeDetails);
+  }, [id,setRecipeDetails]);
+  // console.log(recipeDetails);
  return (
     <div className="details-wrapper">
       <div className="top-section">
