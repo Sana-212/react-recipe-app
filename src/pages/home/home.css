@@ -1,0 +1,32 @@
+/* Wrapper for everything */
+.home-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Loading text */
+.loading {
+  text-align: center;
+  font-size: 24px;
+  color: #ff9472;
+  margin-top:150px
+}
+
+/* No results message */
+.no-results {
+  text-align: center;
+  font-style: bold;
+  font-size: 24px;
+  color: #666;
+  margin-top: 150px;
+}
+
+/* Flex container for recipe items */
+.recipe-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  align-items: stretch;
+}
