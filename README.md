@@ -15,28 +15,30 @@ This is a responsive food recipe web application built with React. Users can sea
 
 ### Project Structure
 
+```plaintext
 src/
 ├── components/
-│ ├── navbar/
-│ │ ├── index.jsx
-│ │ └── navbar.css
-│ ├── recipe-item/
-│ │ ├── index.jsx
-│ │ └── recipeItem.css
+│   ├── navbar/
+│   │   ├── index.jsx
+│   │   └── navbar.css
+│   ├── recipe-item/
+│   │   ├── index.jsx
+│   │   └── recipeItem.css
 ├── pages/
-│ ├── home/
-│ │ ├── index.jsx
-│ │ └── home.css
-│ ├── favorites/
-│ │ ├── index.jsx
-│ │ └── favorites.css
-│ ├── details/
-│ │ ├── index.jsx
-│ │ └── recipeDetails.css
+│   ├── home/
+│   │   ├── index.jsx
+│   │   └── home.css
+│   ├── favorites/
+│   │   ├── index.jsx
+│   │   └── favorites.css
+│   ├── details/
+│   │   ├── index.jsx
+│   │   └── recipeDetails.css
 ├── context/
-│ └── index.js
+│   └── index.js
 ├── App.js
 ├── index.js
+```
 
 ### Getting Started
 
